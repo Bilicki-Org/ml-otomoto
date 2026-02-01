@@ -1,0 +1,18 @@
+# Python setup
+__pycache__/
+.venv/
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+*.xlsx
+
+# DVC (ignore data managed by DVC, but keep .dvc files)
+/data/*
+!/data/*.dvc
+.dvc/tmp/
+.dvc/cache/
