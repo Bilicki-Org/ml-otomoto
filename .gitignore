@@ -16,3 +16,7 @@ data/
 !/data/*.dvc
 .dvc/tmp/
 .dvc/cache/
+
+# Ignore heavy model files
+models/*.joblib
+models/*.pkl
